@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back101"
+    android:orientation="vertical"
+    tools:context=".Registration">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="96dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/upo" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="U   P   O   S   H   O   N   G   H   A   R" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="83dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Registration"
+        android:textSize="15dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="37dp" />
+
+    <EditText
+        android:id="@+id/regmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="E-mail"
+        android:drawableLeft="@drawable/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/regpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:drawableLeft="@drawable/pass"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/regconfpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:drawableLeft="@drawable/pass"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardElevation="16dp"
+        app:cardCornerRadius="16dp">
+
+        <Button
+            android:id="@+id/donebut"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:textSize="10dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:text="Done" />
+    </androidx.cardview.widget.CardView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="232dp" />
+
+</LinearLayout>
